@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background-color: #fdee00;
+  /* alternatively, use a background image
+  background-image:url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  */
+}
+
+#profile {
+  position: fixed;
+  width: 250px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  margin: -225px 0 0 -125px;
+}
+
+#profilepic {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  display:block;
+  margin:auto;
+}
+
+#name {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 250px;
+  padding-top: 10px;
+  color: black;
+  font-size: 270%;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tagline {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 250px;
+  color: black;
+  padding-top: 5px;
+  font-size: 105%;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#socialdiv {
+  display: table;
+  margin: 0 auto;
+  width: 208px;
+  height: 95px;
+  padding-top: 10px;
+}
+
+#social {
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding-top: 15px;
+  padding-right: 6px;
+  padding-left: 6px;
+}

@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  background-color: #fdee00;
+  /* alternatively, use a background image
+  background-image:url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  */
+}
+
+#profile {
+  position: fixed;
+  width: 770px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -385px;
+}
+
+#profilepic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: right;
+  padding-right: 8px;
+}
+
+#name {
+  float: right;
+  width: 440px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 52px;
+  color: black;
+  font-size: 350%;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tagline {
+  float: right;
+  width: 440px;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 5px;
+  color: black;
+  font-size: 180%;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#socialdiv {
+  float: right;
+  width: 448px;
+  height: 40px;
+  padding-right: 12px;
+  padding-top: 20px;
+}
+
+#social {
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding-right: 8px;
+  padding-left: 8px;
+}
