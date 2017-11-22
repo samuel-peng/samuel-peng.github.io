@@ -4,15 +4,14 @@ html {
 }
 
 body {
-  background-color: #8ccec4;
-  /* alternatively, use a background image
-  background-image:url(images/background.jpg);
+  /*background-color: #8ccec4;
+  alternatively, use a background image*/
+  background-image:url(images/Blurred.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  background-color: black;
-  */
+  background-color: #8ccec4;
 }
 
 #profile {
